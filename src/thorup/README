@@ -1,0 +1,27 @@
+11/14/2006
+Joe Crobak
+http://paul.rutgers.edu/~crobakj/ 
+Please contact with questions!
+
+CONTENTS:
+1. OVERVIEW
+2. BUILDING / COMPILING
+
+1. OVERVIEW
+The files in this directory implement the following shortest path algorithms:
+
+BFS, Dijkstra's, Goldberg*, Thorup
+
+The Goldberg implementation is essentially Dijkstra's with a bucket priority-queue and the ``caliber heuristic.''
+
+When possible, there is a directed and undirected variant of each (notably, Thorup only works in the undirected case).  The Thorup algorithm does not handle zero-length edges, although it could easily be modified to ``collapse'' vertices connected by zero length edges into the same vertex.  
+
+In addition, several utility codes exist -- counting sort, kruskal MST, timer, unionfind, etc.  I have tried to give credit in the comments of files.
+
+
+This code is accompanied by my undergraduate thesis, available on my website at http://paul.rutgers.edu/~crobakj/  
+
+2. BUILDING / COMPILING
+type ``make depend; make"
+
+The file format used is the famous DIMACS format.  for an example, see thesis_ex.into

@@ -1,0 +1,565 @@
+# depslib dependency file v1.0
+1262717733 source:/home/jake/code/polygon/src/bitmap/basic_bitmap.cpp
+	<config.h>
+	<fstream>
+	<assert.h>
+	<math.h>
+	"basic_bitmap.h"
+
+1262717733 /home/jake/code/polygon/src/bitmap/basic_bitmap.h
+	<string>
+	<stdexcept>
+	<map>
+	"../exception/catch_all_exception.hpp"
+	"bitmap_typedef.hpp"
+	"../location/location.hpp"
+
+1257396911 /home/jake/code/polygon/src/exception/catch_all_exception.hpp
+	<stdexcept>
+	<string.h>
+
+1262717733 /home/jake/code/polygon/src/bitmap/bitmap_typedef.hpp
+	<vector>
+	<math.h>
+	<stdint.h>
+	<algorithm>
+	<set>
+	"rgb.h"
+	"rgba.h"
+
+1262735891 /home/jake/code/polygon/src/location/location.hpp
+	<vector>
+	<set>
+	<list>
+	<stdlib.h>
+	<iostream>
+	<stdexcept>
+	<math.h>
+	"../thorup/Graph.h"
+
+1262735891 source:/home/jake/code/polygon/src/bitmap/bitmap.cpp
+	"bitmap.h"
+	<math.h>
+	<fstream>
+	<assert.h>
+	<limits.h>
+
+1262735911 /home/jake/code/polygon/src/bitmap/bitmap.h
+	<vector>
+	<set>
+	"../location/location.hpp"
+	"basic_bitmap.h"
+
+1262717733 source:/home/jake/code/polygon/src/bitmap/bitmap_typedef.cpp
+	"bitmap_typedef.hpp"
+
+1262717733 source:/home/jake/code/polygon/src/bitmap/bmp.cpp
+	"bmp.h"
+
+1262717733 /home/jake/code/polygon/src/bitmap/bmp.h
+	"rgb_bitmap.h"
+	"monochrome_bitmap.h"
+	"indexed_bitmap.h"
+	"distillers.h"
+	<config.h>
+	"jpeg.h"
+
+1262717734 /home/jake/code/polygon/src/bitmap/rgb_bitmap.h
+	"bitmap.h"
+	"matrix.h"
+	"stats.h"
+	"distillers.h"
+
+1262717733 /home/jake/code/polygon/src/bitmap/matrix.h
+	<sstream>
+	<vector>
+	"../location/location.hpp"
+
+1262717734 /home/jake/code/polygon/src/bitmap/stats.h
+	<math.h>
+	<stdlib.h>
+
+1262717733 /home/jake/code/polygon/src/bitmap/distillers.h
+	"bitmap.h"
+	"../location/location.hpp"
+	"indexed_bitmap.h"
+
+1262717733 /home/jake/code/polygon/src/bitmap/monochrome_bitmap.h
+	"bitmap.h"
+	"matrix.h"
+
+1262717733 /home/jake/code/polygon/src/bitmap/indexed_bitmap.h
+	<assert.h>
+	"bitmap.h"
+	"matrix.h"
+
+1262717733 /home/jake/code/polygon/src/bitmap/jpeg.h
+	"bmp.h"
+	<stdio.h>
+	<SDL/SDL_image.h>
+	<string>
+
+1262717733 source:/home/jake/code/polygon/src/bitmap/distillers.cpp
+	"distillers.h"
+	"bitmap.h"
+	"../location/location.hpp"
+	"rgb_float.h"
+
+1262736025 source:/home/jake/code/polygon/src/bitmap/indexed_bitmap.cpp
+	<assert.h>
+	<limits.h>
+	<fstream>
+	"indexed_bitmap.h"
+
+1262717733 source:/home/jake/code/polygon/src/bitmap/jpeg.cpp
+	<config.h>
+	"jpeg.h"
+
+1262717733 source:/home/jake/code/polygon/src/bitmap/monochrome_bitmap.cpp
+	<fstream>
+	<assert.h>
+	"monochrome_bitmap.h"
+
+1262719247 source:/home/jake/code/polygon/src/bitmap/rgb_bitmap.cpp
+	<assert.h>
+	"rgb_bitmap.h"
+	"../std_extensions/set_operations.h"
+
+1246380911 source:/home/jake/code/polygon/src/dijkstra/PathMatrix.cpp
+	"../region/region.h"
+	"PathMatrix.h"
+	<fstream>
+	<assert.h>
+
+1246379161 /home/jake/code/polygon/src/dijkstra/PathMatrix.h
+	<vector>
+	<map>
+	<limits.h>
+	<iostream>
+	"../bitmap/bitmap.h"
+	"../bitmap/matrix.h"
+	"../location/location.hpp"
+	"../thorup/Graph.h"
+
+1240080243 /home/jake/code/polygon/src/dijkstra/vertex.h
+	"../location/location.hpp"
+	"../polygon/AdjacencyMatrix.h"
+	<climits>
+	<set>
+	<queue>
+	<stack>
+
+1262736461 /home/jake/code/polygon/src/polygon/AdjacencyMatrix.h
+	<assert.h>
+	<map>
+	<limits.h>
+	<algorithm>
+	"../bitmap/bitmap.h"
+	"../location/location.hpp"
+	"math_vector.hpp"
+	"../region/region.h"
+
+1262719311 /home/jake/code/polygon/src/polygon/math_vector.hpp
+	<math.h>
+	<set>
+	"../location/location.hpp"
+
+1262718375 /home/jake/code/polygon/src/region/region.h
+	<ostream>
+	<fstream>
+	<stdexcept>
+	"../exception/catch_all_exception.hpp"
+	"../bitmap/rgb_bitmap.h"
+	"../location/location.hpp"
+	"region_bounds.hpp"
+	"SquareLatticeWalker.h"
+
+1257452766 /home/jake/code/polygon/src/word/BresenhamWord.h
+	<list>
+	<set>
+	<map>
+	<string>
+	"PatternWord.h"
+	"DirectionWord.h"
+	"Relative.h"
+	"../bitmap/bitmap.h"
+
+1262717735 /home/jake/code/polygon/src/word/PatternWord.h
+	<string>
+	<list>
+	<vector>
+
+1245364943 /home/jake/code/polygon/src/word/DirectionWord.h
+	<string>
+	"../location/location.hpp"
+	"Relative.h"
+	"Absolute.h"
+
+1256517401 /home/jake/code/polygon/src/word/Relative.h
+	"Letter.h"
+
+1245364943 /home/jake/code/polygon/src/word/Letter.h
+
+1245364943 /home/jake/code/polygon/src/word/Absolute.h
+	"Relative.h"
+	"../location/location.hpp"
+
+1262736025 /home/jake/code/polygon/src/region/region_bounds.hpp
+	<fstream>
+	<string>
+	<vector>
+	<stdexcept>
+	"../exception/catch_all_exception.hpp"
+	"../location/location.hpp"
+	"../bitmap/bitmap.h"
+
+1240080243 source:/home/jake/code/polygon/src/dijkstra/vertex.cpp
+	"vertex.h"
+
+1262746377 source:/home/jake/code/polygon/src/location/location.cpp
+	<math.h>
+	"location.hpp"
+
+1262751460 source:/home/jake/code/polygon/src/polygon/AdjacencyMatrix.cpp
+	"AdjacencyMatrix.h"
+	"../std_extensions/set_operations.h"
+	<list>
+	<utility>
+	"../thorup/Graph.h"
+
+1262736288 source:/home/jake/code/polygon/src/polygon/polygon.cpp
+	"polygon.hpp"
+	"../std_extensions/set_operations.h"
+	<assert.h>
+
+1262717734 /home/jake/code/polygon/src/polygon/polygon.hpp
+	<vector>
+	<stdexcept>
+	"../location/location.hpp"
+	"AdjacencyMatrix.h"
+	"../exception/catch_all_exception.hpp"
+
+1240869392 source:/home/jake/code/polygon/src/region/polyomino_stats.cpp
+	"polyomino_stats.h"
+
+1240869392 /home/jake/code/polygon/src/region/polyomino_stats.h
+	<string>
+	"../location/location.hpp"
+
+1262718423 source:/home/jake/code/polygon/src/region/region.cpp
+	"region.h"
+	"../word/CurveWord.h"
+	<assert.h>
+	<map>
+	<utility>
+	<limits.h>
+
+1257453978 source:/home/jake/code/polygon/src/region/region_bounds.cpp
+	"region_bounds.hpp"
+
+1262717734 source:/home/jake/code/polygon/src/stopwatch/Stopwatch.cpp
+	"Stopwatch.h"
+
+1262717734 /home/jake/code/polygon/src/stopwatch/Stopwatch.h
+	<stdlib.h>
+	<sys/time.h>
+	<string>
+
+1246039079 source:/home/jake/code/polygon/src/taspa.cpp
+	<config.h>
+	<SDL/SDL_image.h>
+	"bitmap/bmp.h"
+	"user_interface/ui.h"
+	"region/region.h"
+	"dijkstra/pvertex.h"
+	"polygon/polygon.hpp"
+	"polygon/AdjacencyMatrix.h"
+	"thorup/thorup.h"
+	"stopwatch/Stopwatch.h"
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<sstream>
+	"std_extensions/stream_objects.h"
+
+1262717734 /home/jake/code/polygon/src/user_interface/ui.h
+	<string>
+
+1262739849 source:/home/jake/code/polygon/src/user_interface/ui.cpp
+	<config.h>
+	"ui.h"
+	<iostream>
+	<unistd.h>
+	<stdlib.h>
+	<stdio.h>
+
+1245364943 source:/home/jake/code/polygon/src/word/Absolute.cpp
+	"Absolute.h"
+
+1257839888 source:/home/jake/code/polygon/src/word/BresenhamWord.cpp
+	"BresenhamWord.h"
+	<utility>
+	<assert.h>
+	<iostream>
+
+1245364943 source:/home/jake/code/polygon/src/word/DirectionWord.cpp
+	"DirectionWord.h"
+
+1262717735 source:/home/jake/code/polygon/src/word/PatternWord.cpp
+	"PatternWord.h"
+	<iostream>
+
+1245364943 source:/home/jake/code/polygon/src/word/Relative.cpp
+	"Relative.h"
+
+1240869391 source:/home/jake/code/polygon/src/vertex/vertex.cpp
+	"vertex.hpp"
+
+1240869391 /home/jake/code/polygon/src/vertex/vertex.hpp
+	<vector>
+	<set>
+	<stdexcept>
+	"../exception/catch_all_exception.hpp"
+	"../location/location.hpp"
+
+1245738579 /home/jake/code/polygon/src/dijkstra/pvertex.h
+	<limits.h>
+	<set>
+	<queue>
+	<stack>
+	<algorithm>
+	<iostream>
+	"../std_extensions/stream_objects.h"
+	"FibHeap.h"
+	"PathMatrix.h"
+	"../location/location.hpp"
+	"../polygon/AdjacencyMatrix.h"
+
+1245780833 source:/home/jake/code/polygon/src/dijkstra/pvertex.cpp
+	"pvertex.h"
+	"../stopwatch/Stopwatch.h"
+
+1244133685 /home/jake/code/polygon/src/std_algorithm_extensions/set_operations.h
+	<vector>
+	<set>
+	<list>
+	<streambuf>
+	<ostream>
+
+1244133685 source:/home/jake/code/polygon/src/std_algorithm_extensions/set_operations.cpp
+	"set_operations.h"
+
+1262717734 source:/home/jake/code/polygon/src/std_extensions/set_operations.cpp
+	"set_operations.h"
+
+1262717734 /home/jake/code/polygon/src/std_extensions/set_operations.h
+	<vector>
+	<set>
+	<list>
+	<algorithm>
+
+1262717734 source:/home/jake/code/polygon/src/std_extensions/stream_objects.cpp
+	"stream_objects.h"
+
+1262717734 /home/jake/code/polygon/src/std_extensions/stream_objects.h
+	<streambuf>
+	<ostream>
+
+1245429760 /home/jake/code/polygon/src/dijkstra/FibHeap.h
+	<map>
+	"fib.h"
+
+1245429679 /home/jake/code/polygon/src/dijkstra/fib.h
+
+1245429679 source:/home/jake/code/polygon/src/dijkstra/fib.c
+	"fib.h"
+	"fibpriv.h"
+	<limits.h>
+	<stdlib.h>
+
+1245429679 /home/jake/code/polygon/src/dijkstra/fibpriv.h
+	<limits.h>
+
+1257451192 /home/jake/code/polygon/src/thorup/Graph.h
+	<limits.h>
+
+1245883337 source:/home/jake/code/polygon/src/thorup/thorup.cc
+	<string>
+	<fstream>
+	"../stopwatch/Stopwatch.h"
+	"thorup.h"
+	"parse.h"
+	"Graph.h"
+	"timer.h"
+	"ch.h"
+	"kruskal.h"
+
+1262717734 /home/jake/code/polygon/src/thorup/thorup.h
+	<iostream>
+	"PathMatrix.h"
+	"../polygon/AdjacencyMatrix.h"
+
+1262713010 /home/jake/code/polygon/src/thorup/parse.h
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<exception>
+	"../location/location.hpp"
+	"../polygon/AdjacencyMatrix.h"
+	"Graph.h"
+
+1256712440 /home/jake/code/polygon/src/thorup/timer.h
+	<time.h>
+
+1256712440 /home/jake/code/polygon/src/thorup/ch.h
+	<iostream>
+	<algorithm>
+	<cmath>
+	<vector>
+	<set>
+	<map>
+	<assert.h>
+	"Graph.h"
+	"unionfind.h"
+	"chnode.h"
+	"kruskal.h"
+
+1256712440 /home/jake/code/polygon/src/thorup/unionfind.h
+
+1257140562 /home/jake/code/polygon/src/thorup/chnode.h
+	<iostream>
+	<algorithm>
+	<list>
+	<vector>
+	"Graph.h"
+	"unionfind.h"
+
+1262713062 /home/jake/code/polygon/src/thorup/kruskal.h
+	<iostream>
+	<algorithm>
+	<limits.h>
+	"Graph.h"
+	"unionfind.h"
+	"countingsort.h"
+
+1262713010 /home/jake/code/polygon/src/thorup/countingsort.h
+	<iostream>
+	<algorithm>
+	"Graph.h"
+	"unionfind.h"
+
+1258344482 source:/home/jake/code/polygon/src/word/CurveWord.cpp
+	"CurveWord.h"
+
+1258344450 /home/jake/code/polygon/src/word/CurveWord.h
+	"IntermediateCurveWord.h"
+	"CellularWord.h"
+	"Stair.h"
+	"../bitmap/bitmap.h"
+	<vector>
+	<string>
+
+1262807746 source:/home/jake/code/polygon/src/taspa.cc
+	<config.h>
+	<SDL/SDL_image.h>
+	"bitmap/bmp.h"
+	"user_interface/ui.h"
+	"region/region.h"
+	"polygon/polygon.hpp"
+	"polygon/AdjacencyMatrix.h"
+	"thorup/thorup.h"
+	"stopwatch/Stopwatch.h"
+	<fstream>
+	<time.h>
+	<stdlib.h>
+	<sstream>
+	"std_extensions/stream_objects.h"
+
+1262719454 source:/home/jake/code/polygon/src/thorup/thorup.cpp
+	<string>
+	<fstream>
+	"../stopwatch/Stopwatch.h"
+	"thorup.h"
+	"parse.h"
+	"Graph.h"
+	"timer.h"
+	"ch.h"
+	"kruskal.h"
+
+1262717734 /home/jake/code/polygon/src/thorup/PathMatrix.h
+	<vector>
+	<map>
+	<limits.h>
+	<iostream>
+	"../bitmap/bitmap.h"
+	"../bitmap/matrix.h"
+	"../location/location.hpp"
+	"../thorup/Graph.h"
+
+1262717734 source:/home/jake/code/polygon/src/thorup/PathMatrix.cpp
+	"../region/region.h"
+	"PathMatrix.h"
+	<fstream>
+	<assert.h>
+	"../thorup/thorup.h"
+	"../thorup/Graph.h"
+
+1262717735 /home/jake/code/polygon/src/word/IntermediateCurveWord.h
+	<vector>
+	<string>
+	"Stair.h"
+	"../bitmap/bitmap.h"
+
+1260590309 /home/jake/code/polygon/src/word/Stair.h
+	<list>
+
+1262034421 /home/jake/code/polygon/src/word/CellularWord.h
+	<string>
+	"PotentialLine.h"
+
+1257992052 /home/jake/code/polygon/src/word/PotentialLine.h
+	<vector>
+	<string>
+	<set>
+	"Stair.h"
+
+1262733024 source:/home/jake/code/polygon/src/word/CellularWord.cpp
+	"CellularWord.h"
+
+1262717735 source:/home/jake/code/polygon/src/word/IntermediateCurveWord.cpp
+	"IntermediateCurveWord.h"
+	"../region/region.h"
+	<utility>
+
+1262113394 source:/home/jake/code/polygon/src/word/PotentialLine.cpp
+	"PotentialLine.h"
+	<limits.h>
+	<stdlib.h>
+	<math.h>
+
+1247684209 /home/jake/code/polygon/src/bitmap/rgb.h
+	<set>
+	<iostream>
+
+1247684187 /home/jake/code/polygon/src/bitmap/rgb_float.h
+	"rgb.h"
+
+1247684224 source:/home/jake/code/polygon/src/bitmap/rgb.cpp
+	"rgb.h"
+
+1262719247 /home/jake/code/polygon/src/bitmap/rgba.h
+	<vector>
+	"rgb.h"
+
+1257452410 /home/jake/code/polygon/src/region/SquareLatticeWalker.h
+	"../bitmap/bitmap.h"
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	<set>
+
+1258335167 source:/home/jake/code/polygon/src/region/SquareLatticeWalker.cpp
+	"SquareLatticeWalker.h"
+	<assert.h>
+

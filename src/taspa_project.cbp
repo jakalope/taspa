@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="taspa" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Intel">
+				<Option output="../bin/Intel/taspa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Intel/" />
+				<Option type="1" />
+				<Option compiler="icc" />
+				<Option parameters="-v ~/bmpData/ne_sjsu_grey.bmp ~/bmpData/cvx/ne_sjsu_grey.bmp" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-rcd" />
+					<Add option="-fast" />
+					<Add option="-Wp64" />
+					<Add option="-Wunused-function" />
+					<Add option="-pipe" />
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-march=nocona" />
+					<Add option="-D_GNU_SOURCE=1" />
+					<Add option="-D_REENTRANT" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DHAVE_SDL_IMAGE" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-I/usr/include/SDL" />
+					<Add option="-D_GNU_SOURCE=1" />
+					<Add option="-D_REENTRANT" />
+					<Add option="-L/usr/lib" />
+					<Add option="-lSDL_image" />
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="../bin/Debug/taspa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-v -d footprint ~/bmpData/cvx/robot_map_02.bmp ~/bmpData/cvx/robot_map_02.bmp" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-pg" />
+					<Add option="-ggdb3" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+				</Linker>
+			</Target>
+			<Target title="Compatible">
+				<Option output="../bin/Compatible/taspa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/Compatible" />
+				<Option type="1" />
+				<Option compiler="gcc34_compiler" />
+				<Option parameters="-v -d footprint ~/bmpData/occupancy_map.bmp ~/bmpData/output.bmp" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+				</Linker>
+			</Target>
+			<Target title="GCC 4.4">
+				<Option output="../bin/GCC44/taspa" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../obj/GCC44/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-v -d footprint ~/bmpData/occupancy_map.bmp ~/bmpData/output.bmp" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-ansi" />
+					<Add option="-pipe" />
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-ansi" />
+			<Add option="-DHAVE_SDL_IMAGE" />
+		</Compiler>
+		<Linker>
+			<Add option="-I/usr/include/SDL" />
+			<Add option="-D_GNU_SOURCE=1" />
+			<Add option="-D_REENTRANT" />
+			<Add option="-L/usr/lib" />
+			<Add option="-lSDL_image" />
+			<Add option="-lpthread" />
+		</Linker>
+		<Unit filename="bitmap/basic_bitmap.cpp" />
+		<Unit filename="bitmap/basic_bitmap.h" />
+		<Unit filename="bitmap/bitmap.cpp" />
+		<Unit filename="bitmap/bitmap.h" />
+		<Unit filename="bitmap/bitmap_typedef.cpp" />
+		<Unit filename="bitmap/bitmap_typedef.hpp" />
+		<Unit filename="bitmap/bmp.cpp" />
+		<Unit filename="bitmap/bmp.h" />
+		<Unit filename="bitmap/distillers.cpp" />
+		<Unit filename="bitmap/distillers.h" />
+		<Unit filename="bitmap/indexed_bitmap.cpp" />
+		<Unit filename="bitmap/indexed_bitmap.h" />
+		<Unit filename="bitmap/jpeg.cpp" />
+		<Unit filename="bitmap/jpeg.h" />
+		<Unit filename="bitmap/matrix.h" />
+		<Unit filename="bitmap/monochrome_bitmap.cpp" />
+		<Unit filename="bitmap/monochrome_bitmap.h" />
+		<Unit filename="bitmap/rgb.cpp" />
+		<Unit filename="bitmap/rgb.h" />
+		<Unit filename="bitmap/rgb_bitmap.cpp" />
+		<Unit filename="bitmap/rgb_bitmap.h" />
+		<Unit filename="bitmap/rgb_float.h" />
+		<Unit filename="bitmap/rgba.h" />
+		<Unit filename="bitmap/stats.h" />
+		<Unit filename="exception/catch_all_exception.hpp" />
+		<Unit filename="location/location.cpp" />
+		<Unit filename="location/location.hpp" />
+		<Unit filename="math/int_math.h" />
+		<Unit filename="polygon/AdjacencyMatrix.cpp" />
+		<Unit filename="polygon/AdjacencyMatrix.h" />
+		<Unit filename="polygon/math_vector.hpp" />
+		<Unit filename="polygon/polygon.cpp" />
+		<Unit filename="polygon/polygon.hpp" />
+		<Unit filename="region/SquareLatticeWalker.cpp" />
+		<Unit filename="region/SquareLatticeWalker.h" />
+		<Unit filename="region/region.cpp" />
+		<Unit filename="region/region.h" />
+		<Unit filename="region/region_bounds.hpp" />
+		<Unit filename="std_extensions/iterative_fstream.h" />
+		<Unit filename="std_extensions/set_operations.cpp" />
+		<Unit filename="std_extensions/set_operations.h" />
+		<Unit filename="std_extensions/stream_objects.cpp" />
+		<Unit filename="std_extensions/stream_objects.h" />
+		<Unit filename="stopwatch/Stopwatch.cpp" />
+		<Unit filename="stopwatch/Stopwatch.h" />
+		<Unit filename="taspa.cc" />
+		<Unit filename="thorup/Graph.h" />
+		<Unit filename="thorup/PathMatrix.cpp" />
+		<Unit filename="thorup/PathMatrix.h" />
+		<Unit filename="thorup/ch.h" />
+		<Unit filename="thorup/chnode.h" />
+		<Unit filename="thorup/countingsort.h" />
+		<Unit filename="thorup/kruskal.h" />
+		<Unit filename="thorup/parse.h" />
+		<Unit filename="thorup/thorup.cpp" />
+		<Unit filename="thorup/thorup.h" />
+		<Unit filename="thorup/timer.h" />
+		<Unit filename="thorup/unionfind.h" />
+		<Unit filename="user_interface/ui.cpp" />
+		<Unit filename="user_interface/ui.h" />
+		<Unit filename="word/CellularWord.cpp" />
+		<Unit filename="word/CellularWord.h" />
+		<Unit filename="word/CurveWord.cpp" />
+		<Unit filename="word/CurveWord.h" />
+		<Unit filename="word/IntermediateCurveWord.cpp" />
+		<Unit filename="word/IntermediateCurveWord.h" />
+		<Unit filename="word/PatternWord.cpp" />
+		<Unit filename="word/PatternWord.h" />
+		<Unit filename="word/PotentialLine.cpp" />
+		<Unit filename="word/PotentialLine.h" />
+		<Unit filename="word/Stair.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1">
+				<lib name="sdl" />
+			</lib_finder>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,8 @@
+echo "AM_CFLAGS = -DNDEBUG -Wall -s -O3 -pipe -fomit-frame-pointer" > Makefile.am
+echo "AM_CPPFLAGS = -DNDEBUG -Wall -s -O3 -pipe -fomit-frame-pointer" > Makefile.am
+
+echo "bin_PROGRAMS = taspa" >> Makefile.am
+
+echo -n "taspa_SOURCES = taspa.cc " >> Makefile.am
+find ./ -name \*.c -printf " %h/%f" >> Makefile.am
+find ./ -name \*.cpp -printf " %h/%f" >> Makefile.am

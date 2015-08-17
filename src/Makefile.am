@@ -1,0 +1,3 @@
+AM_CPPFLAGS = -DNDEBUG -Wall -s -O3 -pipe -fomit-frame-pointer
+bin_PROGRAMS = taspa
+taspa_SOURCES = taspa.cc  ./word/PatternWord.cpp ./word/PotentialLine.cpp ./word/CurveWord.cpp ./word/CellularWord.cpp ./word/IntermediateCurveWord.cpp ./bitmap/bmp.cpp ./bitmap/bitmap_typedef.cpp ./bitmap/indexed_bitmap.cpp ./bitmap/jpeg.cpp ./bitmap/bitmap.cpp ./bitmap/basic_bitmap.cpp ./bitmap/rgb.cpp ./bitmap/rgb_bitmap.cpp ./bitmap/monochrome_bitmap.cpp ./bitmap/distillers.cpp ./polygon/polygon.cpp ./polygon/AdjacencyMatrix.cpp ./user_interface/ui.cpp ./stopwatch/Stopwatch.cpp ./location/location.cpp ./thorup/PathMatrix.cpp ./thorup/thorup.cpp ./std_extensions/stream_objects.cpp ./std_extensions/set_operations.cpp ./region/region.cpp ./region/SquareLatticeWalker.cpp

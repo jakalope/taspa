@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="bitmap/basic_bitmap.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2301" topLine="33" />
+	</File>
+	<File name="bitmap/basic_bitmap.h" open="0" top="0" tabpos="28">
+		<Cursor position="2383" topLine="47" />
+	</File>
+	<File name="bitmap/bitmap.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1626" topLine="23" />
+	</File>
+	<File name="bitmap/bitmap.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="bitmap/bitmap_typedef.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="bitmap/bitmap_typedef.hpp" open="0" top="0" tabpos="21">
+		<Cursor position="1642" topLine="11" />
+	</File>
+	<File name="bitmap/bmp.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1755" topLine="30" />
+	</File>
+	<File name="bitmap/bmp.h" open="1" top="1" tabpos="3">
+		<Cursor position="2020" topLine="12" />
+	</File>
+	<File name="bitmap/distillers.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="29" />
+	</File>
+	<File name="bitmap/distillers.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="10" />
+	</File>
+	<File name="bitmap/indexed_bitmap.cpp" open="0" top="0" tabpos="17">
+		<Cursor position="1569" topLine="7" />
+	</File>
+	<File name="bitmap/indexed_bitmap.h" open="0" top="0" tabpos="18">
+		<Cursor position="1600" topLine="9" />
+	</File>
+	<File name="bitmap/jpeg.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="bitmap/jpeg.h" open="0" top="0" tabpos="26">
+		<Cursor position="1603" topLine="9" />
+	</File>
+	<File name="bitmap/matrix.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="bitmap/monochrome_bitmap.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="1569" topLine="7" />
+	</File>
+	<File name="bitmap/monochrome_bitmap.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="bitmap/rgb_bitmap.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="1549" topLine="6" />
+	</File>
+	<File name="bitmap/rgb_bitmap.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="bitmap/stats.h" open="0" top="0" tabpos="22">
+		<Cursor position="1612" topLine="23" />
+	</File>
+	<File name="dijkstra/PathMatrix.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1809" topLine="30" />
+	</File>
+	<File name="dijkstra/PathMatrix.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="27" />
+	</File>
+	<File name="dijkstra/pvertex.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="2831" topLine="72" />
+	</File>
+	<File name="dijkstra/pvertex.h" open="0" top="0" tabpos="25">
+		<Cursor position="1660" topLine="29" />
+	</File>
+	<File name="location/location.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1560" topLine="32" />
+	</File>
+	<File name="location/location.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="1665" topLine="16" />
+	</File>
+	<File name="polygon/AdjacencyMatrix.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="28292" topLine="1018" />
+	</File>
+	<File name="polygon/AdjacencyMatrix.h" open="0" top="0" tabpos="8">
+		<Cursor position="1637" topLine="35" />
+	</File>
+	<File name="polygon/math_vector.hpp" open="0" top="0" tabpos="24">
+		<Cursor position="1599" topLine="9" />
+	</File>
+	<File name="polygon/polygon.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1572" topLine="33" />
+	</File>
+	<File name="polygon/polygon.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="2440" topLine="40" />
+	</File>
+	<File name="region/polyomino_stats.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="region/polyomino_stats.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="region/region.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="1624" topLine="33" />
+	</File>
+	<File name="region/region.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="region/region_bounds.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="3919" topLine="91" />
+	</File>
+	<File name="region/region_bounds.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="stopwatch/Stopwatch.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="stopwatch/Stopwatch.h" open="0" top="0" tabpos="27">
+		<Cursor position="1590" topLine="9" />
+	</File>
+	<File name="taspa.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1660" topLine="27" />
+	</File>
+	<File name="user_interface/ui.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="3465" topLine="50" />
+	</File>
+	<File name="user_interface/ui.h" open="0" top="0" tabpos="2">
+		<Cursor position="1575" topLine="8" />
+	</File>
+	<File name="vertex/vertex.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6185" topLine="0" />
+	</File>
+	<File name="word/Absolute.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="word/Absolute.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="word/BresenhamWord.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="1595" topLine="34" />
+	</File>
+	<File name="word/BresenhamWord.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="word/DirectionWord.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="word/DirectionWord.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="word/Letter.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="12" />
+	</File>
+	<File name="word/PatternWord.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="4533" topLine="131" />
+	</File>
+	<File name="word/PatternWord.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="word/Relative.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+	<File name="word/Relative.h" open="0" top="0" tabpos="0">
+		<Cursor position="1478" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

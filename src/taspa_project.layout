@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="bitmap/basic_bitmap.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/basic_bitmap.h" open="0" top="0" tabpos="8">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/bitmap.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="9341" topLine="334" />
+	</File>
+	<File name="bitmap/bitmap.h" open="0" top="0" tabpos="4">
+		<Cursor position="5737" topLine="125" />
+	</File>
+	<File name="bitmap/bitmap_typedef.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/bitmap_typedef.hpp" open="0" top="0" tabpos="21">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/bmp.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/bmp.h" open="0" top="0" tabpos="4">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/distillers.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/distillers.h" open="0" top="0" tabpos="7">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/indexed_bitmap.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="6167" topLine="194" />
+	</File>
+	<File name="bitmap/indexed_bitmap.h" open="0" top="0" tabpos="5">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/jpeg.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/jpeg.h" open="0" top="0" tabpos="2">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/matrix.h" open="0" top="0" tabpos="6">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/monochrome_bitmap.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/monochrome_bitmap.h" open="0" top="0" tabpos="0">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/rgb.h" open="0" top="0" tabpos="0">
+		<Cursor position="1206" topLine="0" />
+	</File>
+	<File name="bitmap/rgb_bitmap.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5012" topLine="146" />
+	</File>
+	<File name="bitmap/rgb_bitmap.h" open="0" top="0" tabpos="0">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="bitmap/rgba.h" open="0" top="0" tabpos="3">
+		<Cursor position="868" topLine="32" />
+	</File>
+	<File name="bitmap/stats.h" open="0" top="0" tabpos="5">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="exception/catch_all_exception.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="469" topLine="15" />
+	</File>
+	<File name="location/location.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="location/location.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1591" topLine="20" />
+	</File>
+	<File name="math/int_math.h" open="0" top="0" tabpos="0">
+		<Cursor position="189" topLine="0" />
+	</File>
+	<File name="polygon/AdjacencyMatrix.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="6410" topLine="190" />
+	</File>
+	<File name="polygon/AdjacencyMatrix.h" open="0" top="0" tabpos="9">
+		<Cursor position="10508" topLine="319" />
+	</File>
+	<File name="polygon/math_vector.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="3156" topLine="71" />
+	</File>
+	<File name="polygon/polygon.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2060" topLine="38" />
+	</File>
+	<File name="polygon/polygon.hpp" open="0" top="0" tabpos="10">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="region/SquareLatticeWalker.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2248" topLine="66" />
+	</File>
+	<File name="region/SquareLatticeWalker.h" open="0" top="0" tabpos="3">
+		<Cursor position="1485" topLine="34" />
+	</File>
+	<File name="region/region.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="3782" topLine="108" />
+	</File>
+	<File name="region/region.h" open="0" top="0" tabpos="2">
+		<Cursor position="2703" topLine="69" />
+	</File>
+	<File name="region/region_bounds.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="3519" topLine="73" />
+	</File>
+	<File name="std_extensions/iterative_fstream.h" open="0" top="0" tabpos="6">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="std_extensions/set_operations.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="std_extensions/set_operations.h" open="0" top="0" tabpos="10">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="std_extensions/stream_objects.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="std_extensions/stream_objects.h" open="0" top="0" tabpos="3">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="stopwatch/Stopwatch.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="78" topLine="0" />
+	</File>
+	<File name="stopwatch/Stopwatch.h" open="0" top="0" tabpos="6">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="taspa.cc" open="1" top="1" tabpos="1">
+		<Cursor position="12918" topLine="0" />
+	</File>
+	<File name="thorup/Graph.h" open="0" top="0" tabpos="10">
+		<Cursor position="1038" topLine="35" />
+	</File>
+	<File name="thorup/PathMatrix.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="thorup/PathMatrix.h" open="0" top="0" tabpos="6">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="thorup/ch.h" open="0" top="0" tabpos="9">
+		<Cursor position="1802" topLine="208" />
+	</File>
+	<File name="thorup/chnode.h" open="0" top="0" tabpos="4">
+		<Cursor position="2836" topLine="87" />
+	</File>
+	<File name="thorup/countingsort.h" open="0" top="0" tabpos="4">
+		<Cursor position="595" topLine="6" />
+	</File>
+	<File name="thorup/kruskal.h" open="0" top="0" tabpos="5">
+		<Cursor position="407" topLine="0" />
+	</File>
+	<File name="thorup/parse.h" open="0" top="0" tabpos="7">
+		<Cursor position="8394" topLine="0" />
+	</File>
+	<File name="thorup/thorup.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="463" topLine="15" />
+	</File>
+	<File name="thorup/thorup.h" open="0" top="0" tabpos="3">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="thorup/timer.h" open="0" top="0" tabpos="0">
+		<Cursor position="516" topLine="9" />
+	</File>
+	<File name="thorup/unionfind.h" open="0" top="0" tabpos="0">
+		<Cursor position="1021" topLine="37" />
+	</File>
+	<File name="user_interface/ui.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="3" topLine="0" />
+	</File>
+	<File name="user_interface/ui.h" open="0" top="0" tabpos="9">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="word/CellularWord.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="464" topLine="13" />
+	</File>
+	<File name="word/CellularWord.h" open="0" top="0" tabpos="3">
+		<Cursor position="4170" topLine="22" />
+	</File>
+	<File name="word/CurveWord.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="417" topLine="0" />
+	</File>
+	<File name="word/CurveWord.h" open="0" top="0" tabpos="9">
+		<Cursor position="428" topLine="0" />
+	</File>
+	<File name="word/IntermediateCurveWord.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="word/IntermediateCurveWord.h" open="0" top="0" tabpos="7">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="word/PatternWord.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="78" topLine="1" />
+	</File>
+	<File name="word/PatternWord.h" open="0" top="0" tabpos="6">
+		<Cursor position="78" topLine="46" />
+	</File>
+	<File name="word/PotentialLine.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="6531" topLine="196" />
+	</File>
+	<File name="word/PotentialLine.h" open="0" top="0" tabpos="4">
+		<Cursor position="2752" topLine="53" />
+	</File>
+	<File name="word/Stair.h" open="0" top="0" tabpos="11">
+		<Cursor position="261" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

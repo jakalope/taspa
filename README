@@ -1,0 +1,131 @@
+=========================================================================
+Topological all shortest paths automatique' (TASPA) 1.2.0, Jan 5, 2010
+=========================================================================
+
+TASPA is an image processing program using arbitrary boundary detection 
+algorithms to generate an all-pairs shortest paths matrix in the ground 
+space of a bitmap.
+
+TASPA is designed to demonstrate a vertex thinning algorithm, using word 
+combinatorics to find the minimum set of convex vertices. It then applies 
+Thorup's SSSP algorithm from each vertex to generate a matrix whose entries 
+[a_ij] are the next edge to traverse from vertex i to vertex j.
+
+NOTE: As far as I know, this version is bug-free for all necessary features
+and is mostly bug-free for all additional features. I would appreciate any
+feedback concerning bugs, along with a copy of the input and output bitmaps 
+from which you found them.
+
+-Jake Askeland
+jake (dot) askeland (at) gmail.com
+
+
+=========================================================================
+Dependencies
+=========================================================================
+
+Originally built with the following utilities:
+
+	GCC version 4.4.1 (also compiles on 3.4)
+	GNU Make version 3.81
+	
+Tested on:
+
+	GCC 4.4.1, GCC 3.4, and Intel ICC 11.1
+
+Optional libraries (must be installed before-hand):
+
+    SDL-image 1.2.0 (or later)
+
+Windows:
+
+    Compiles with both MinGW and Visual C++; however, the only
+	 testing I've done on Windows suggests I need to do a lot of
+	 debugging.
+
+
+=========================================================================
+Installation
+=========================================================================
+
+--- Linux and Unix derivatives (including Darwin) ---
+Run the following, from this directory, in this order:
+
+./configure
+make
+su -c "make install"
+
+Now you can use 'taspa' from the command line.
+
+
+=========================================================================
+Example Usages
+=========================================================================
+
+From the 'bitmaps' directory, try the following from the command line
+after installation:
+
+  taspa -v -d footprint robot_map.bmp robot_map.bmp
+  taspa -v maze_grey.bmp maze_grey.bmp
+  taspa -v -d color_variation face_sm.bmp face_sm.bmp
+
+
+=========================================================================
+Built-in boundary detectors
+=========================================================================
+
+TASPA currently has five built in boundary detection algorithms 
+(referred to as distillers) which can be specified with the '-d 
+[distiller_name]' command line option:
+
+	luminance (default)	Takes any pixel whose luminance
+				is above 50% of maximum as traversable.
+	
+	avg_luminance		Takes the average luminance of 
+				neighboring pixels with
+				above 50% maximum as traversable
+				(good for natrual image filtering).
+								
+	color_variation		Pixels whose color (luminance-
+				independant) variation between 
+				opposing neighbor pixels, 
+				beyond a small threshold, are
+				*untraversable* (good for natrual
+				images with shadows).
+				
+	lum_diff		Compares the previous neighbor pixel to
+				the current pixel. If luminance diff is
+				less than or equal to 12.5%, pixel is
+				traversable.
+				
+	footprint		Supposes the size of the thing traversing
+				the map has a 9x9 footprint; thus a pixel
+				only remains traversable if each pixel in
+				the 9x9 grid surrounding it was originally
+				traversable. 
+								
+
+=========================================================================
+Formats supported
+=========================================================================
+
+Input formats
+--------------
+Bitmap:		24 bit RGB    (standard color bitmap)
+		8 bit indexed (256 colors from a 24 bit pallet; buggy)
+		
+If the SDL-image library was available when compiling Taspa, the 
+following formats may be supported (depending on your SDL build):
+BMP, LBM, GIF, JPEG, PCX, PNG, PNM, TGA, TIFF, XCF, XPM.
+
+Output formats
+--------------
+Bitmap:		24 bit RGB    (standard color bitmap)
+
+
+=========================================================================
+Known issues
+=========================================================================
+
+None.
+
